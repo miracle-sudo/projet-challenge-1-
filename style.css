@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* =========================
+   BODY
+========================= */
+
+body {
+    min-height: 100vh;
+
+    background-color: #141519;
+
+    font-family: "Overpass", sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ==================================================
+   PREMIÈRE PAGE : RATING
+================================================== */
+
+.rating-card {
+    width: 328px;
+    min-height: 332px;
+
+    background-color: #202a35;
+
+    border-radius: 20px;
+
+    padding: 28px 25px;
+}
+
+
+/* Étoile */
+
+.star-container {
+    width: 40px;
+    height: 40px;
+
+    background-color: #293440;
+
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 25px;
+}
+
+.star-container img {
+    width: 14px;
+    height: 14px;
+}
+
+
+/* Titre */
+
+.rating-card h1 {
+    color: #ffffff;
+
+    font-size: 23px;
+    font-weight: 700;
+
+    margin-bottom: 12px;
+}
+
+
+/* Texte */
+
+.rating-card p {
+    color: #959eaa;
+
+    font-size: 13px;
+
+    line-height: 1.6;
+
+    margin-bottom: 20px;
+}
+
+
+/* Conteneur des notes */
+
+.rating-container {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 24px;
+}
+
+
+/* Boutons 1 à 5 */
+
+.rating {
+    width: 40px;
+    height: 40px;
+
+    border: none;
+
+    border-radius: 50%;
+
+    background-color: #293440;
+
+    color: #959eaa;
+
+    font-family: "Overpass", sans-serif;
+
+    font-size: 13px;
+
+    cursor: pointer;
+}
+
+
+/* Survol */
+
+.rating:hover {
+    background-color: #7c8792;
+
+    color: #ffffff;
+}
+
+
+/* Note sélectionnée */
+
+.rating.selected {
+    background-color: #fb7413;
+
+    color: #ffffff;
+}
+
+
+/* Bouton Submit */
+
+.submit {
+    width: 100%;
+    height: 38px;
+
+    border: none;
+
+    border-radius: 20px;
+
+    background-color: #fb7413;
+
+    color: #141519;
+
+    font-family: "Overpass", sans-serif;
+
+    font-size: 11px;
+    font-weight: 700;
+
+    letter-spacing: 2px;
+
+    cursor: pointer;
+}
+
+
+/* Survol Submit */
+
+.submit:hover {
+    background-color: #ffffff;
+
+    color: #fb7413;
+}
+
+
+/* ==================================================
+   DEUXIÈME PAGE : THANK YOU
+================================================== */
+
+.thank-card {
+    width: 328px;
+    min-height: 332px;
+
+    background-color: #202a35;
+
+    border-radius: 20px;
+
+    padding: 35px 25px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    text-align: center;
+    display: none;
+}
+
+
+/* Illustration */
+
+.thank-you-image {
+    width: 150px;
+    height: auto;
+
+    margin-bottom: 25px;
+}
+
+
+/* Note sélectionnée */
+
+.selected-rating {
+    background-color: #293440;
+
+    color: #fb7413;
+
+    font-size: 13px;
+
+    padding: 8px 18px;
+
+    border-radius: 20px;
+
+    margin-bottom: 25px;
+}
+
+
+/* Titre Thank you */
+
+.thank-card h1 {
+    color: #ffffff;
+
+    font-size: 23px;
+    font-weight: 700;
+
+    margin-bottom: 12px;
+}
+
+
+/* Texte Thank you */
+
+.thank-card p {
+    max-width: 280px;
+
+    color: #959eaa;
+
+    font-size: 13px;
+
+    line-height: 1.6;
+}
